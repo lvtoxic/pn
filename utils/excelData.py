@@ -37,3 +37,14 @@ def getHeadersValue():
                'Referer': 'https://www.lagou.com/jobs/list_%E6%B5%8B%E8%AF%95?labelWords=&fromSearch=true&suginput='
                }
     return headers
+
+
+# def getHeadersInfo(positionID=None):
+#     '''获取请求头'''
+#     headers = {'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+#                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36',
+#                'Cookie': 'user_trace_token=20181205142244-0cbedad5-c072-49eb-a66d-70fcfa06fcdf; _ga=GA1.2.1965191215.1543990965; LGUID=20181205142247-2ec74584-f856-11e8-8bcc-525400f775ce; index_location_city=%E6%88%90%E9%83%BD; JSESSIONID=ABAAABAAADEAAFI550A01721BFF377891B2203BC377C088; _gat=1; _gid=GA1.2.1507541418.1544162359; Hm_lvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1543990966,1543991545,1544162359; LGSID=20181207135921-3dd9ca02-f9e5-11e8-8d85-525400f775ce; PRE_UTM=; PRE_HOST=www.baidu.com; PRE_SITE=https%3A%2F%2Fwww.baidu.com%2Flink%3Furl%3DjmBZI3qzyHlTKbDKWXv8inCB6y4DEcE13N1eitxU75e%26wd%3D%26eqid%3Dc59243be00029497000000065c0a0c30; PRE_LAND=https%3A%2F%2Fwww.lagou.com%2F; TG-TRACK-CODE=index_search; SEARCH_ID=5e0dbff464544080b9522aa704a82996; LGRID=20181207140819-7ea8f17b-f9e6-11e8-8ce7-5254005c3644; Hm_lpvt_4233e74dff0ae5bd0a3d81c6ccf756e6=1544162897',
+#                'Referer': 'https://www.lagou.com/jobs/%s.html'%positionID
+#                }
+#     return headers
+

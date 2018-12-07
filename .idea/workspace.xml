@@ -2,18 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="12b24d77-39d4-4bff-90c8-bb3bf9092538" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/base/method.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/config/config.ini" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/requestData.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/page/laGou.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/test_laGou.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/data_config.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/excelData.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/operationExcel.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/operationJson.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/public.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/bin/run.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/data.xls" afterPath="$PROJECT_DIR$/data/data.xls" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/base/method.py" afterPath="$PROJECT_DIR$/base/method.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/data/requestData.json" afterPath="$PROJECT_DIR$/data/requestData.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/page/laGou.py" afterPath="$PROJECT_DIR$/page/laGou.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/test_laGou.py" afterPath="$PROJECT_DIR$/tests/test_laGou.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/excelData.py" afterPath="$PROJECT_DIR$/utils/excelData.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/operationExcel.py" afterPath="$PROJECT_DIR$/utils/operationExcel.py" />
     </list>
     <ignored path="pn1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -57,12 +54,12 @@
     </favorites_list>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="method.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/base/method.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+            <state relative-caret-position="342">
+              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
               </folding>
@@ -70,13 +67,45 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_laGou.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_laGou.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/test_laGou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="340">
+              <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
               <folding>
                 <element signature="e#16#31#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="excelData.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/excelData.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="positionId" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/data/positionId">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operationJson.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+              <folding>
+                <element signature="e#16#27#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -85,11 +114,33 @@
       <file leaf-file-name="laGou.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/page/laGou.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+            <state relative-caret-position="527">
+              <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
               <folding>
                 <element signature="e#15#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="operationExcel.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="427">
+              <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+              <folding>
+                <element signature="e#15#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/bin/run.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,30 +151,6 @@
             <state relative-caret-position="119">
               <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operationJson.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
-              <folding>
-                <element signature="e#16#27#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="operationExcel.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="714">
-              <caret line="42" column="0" selection-start-line="42" selection-start-column="2" selection-end-line="43" selection-end-column="28" />
-              <folding>
-                <element signature="e#15#26#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -144,14 +171,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/utils/data_config.py" />
-        <option value="$PROJECT_DIR$/utils/excelData.py" />
         <option value="$PROJECT_DIR$/utils/operationJson.py" />
-        <option value="$PROJECT_DIR$/utils/operationExcel.py" />
-        <option value="$PROJECT_DIR$/data/requestData.json" />
         <option value="$PROJECT_DIR$/utils/public.py" />
-        <option value="$PROJECT_DIR$/base/method.py" />
+        <option value="$PROJECT_DIR$/data/requestData.json" />
+        <option value="$PROJECT_DIR$/data/positonId" />
+        <option value="$PROJECT_DIR$/utils/excelData.py" />
+        <option value="$PROJECT_DIR$/data/positionId" />
         <option value="$PROJECT_DIR$/page/laGou.py" />
+        <option value="$PROJECT_DIR$/base/method.py" />
         <option value="$PROJECT_DIR$/tests/test_laGou.py" />
+        <option value="$PROJECT_DIR$/utils/operationExcel.py" />
+        <option value="$PROJECT_DIR$/bin/run.py" />
       </list>
     </option>
   </component>
@@ -206,6 +236,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -324,7 +355,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -332,25 +362,8 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Python tests.Unittest LaGou.test_lagou_002">
-    <configuration default="false" name="test_laGou" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="pn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_laGou.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unittests in test_laGou" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.operationExcel">
+    <configuration default="false" name="Unittest LaGou.test_lagou_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -361,10 +374,10 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_laGou.py" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="LaGou" />
+      <option name="METHOD_NAME" value="test_lagou_002" />
       <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -394,7 +407,7 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unittest LaGou.test_lagou_002" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration default="false" name="Unittest LaGou.test_lagou_003" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -406,7 +419,7 @@
       <module name="pn" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_laGou.py" />
       <option name="CLASS_NAME" value="LaGou" />
-      <option name="METHOD_NAME" value="test_lagou_002" />
+      <option name="METHOD_NAME" value="test_lagou_003" />
       <option name="FOLDER_NAME" value="" />
       <option name="TEST_TYPE" value="TEST_METHOD" />
       <option name="PATTERN" value="" />
@@ -416,19 +429,41 @@
       <option name="USE_PARAM" value="false" />
       <method />
     </configuration>
-    <configuration default="false" name="laGou" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration default="false" name="Unittest LaGou.test_lagou_003 (1)" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="pn" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/test_laGou.py" />
+      <option name="CLASS_NAME" value="LaGou" />
+      <option name="METHOD_NAME" value="test_lagou_003" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PUREUNITTEST" value="true" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="operationExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/utils" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="pn" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/page/laGou.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/utils/operationExcel.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -568,19 +603,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.test_laGou" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_laGou" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_001" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_002" />
-      <item index="4" class="java.lang.String" itemvalue="Python.laGou" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_002" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_001" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_003" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_003 (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Python.operationExcel" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_002" />
-        <item index="1" class="java.lang.String" itemvalue="Python.laGou" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_laGou" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_001" />
-        <item index="4" class="java.lang.String" itemvalue="Python.test_laGou" />
+        <item index="0" class="java.lang.String" itemvalue="Python.operationExcel" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_001" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_003" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_002" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittest LaGou.test_lagou_003 (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -598,60 +633,75 @@
       <option name="presentableId" value="Default" />
       <updated>1544005248400</updated>
     </task>
+    <task id="LOCAL-00001" summary="c">
+      <created>1544091883524</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544091883524</updated>
+    </task>
+    <task id="LOCAL-00002" summary="c">
+      <created>1544091919714</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544091919714</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.06 at 17h 49m 49s.xml">
+    <history-entry file="Unittest_LaGou_test_lagou_001 - 2018.12.07 at 17h 44m 20s.xml">
+      <configuration name="Unittest LaGou.test_lagou_001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LaGou_test_lagou_001 - 2018.12.07 at 17h 45m 30s.xml">
+      <configuration name="Unittest LaGou.test_lagou_001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LaGou_test_lagou_001 - 2018.12.07 at 17h 48m 21s.xml">
+      <configuration name="Unittest LaGou.test_lagou_001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LaGou_test_lagou_001 - 2018.12.07 at 17h 48m 59s.xml">
+      <configuration name="Unittest LaGou.test_lagou_001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LaGou_test_lagou_001 - 2018.12.07 at 17h 49m 22s.xml">
+      <configuration name="Unittest LaGou.test_lagou_001" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.07 at 16h 44m 28s.xml">
       <configuration name="Unittest LaGou.test_lagou_002" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.06 at 18h 20m 08s.xml">
-      <configuration name="Unittest LaGou.test_lagou_002" configurationId="tests" />
+    <history-entry file="Unittest_LaGou_test_lagou_003 - 2018.12.07 at 16h 44m 10s.xml">
+      <configuration name="Unittest LaGou.test_lagou_003" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.06 at 18h 20m 21s.xml">
-      <configuration name="Unittest LaGou.test_lagou_002" configurationId="tests" />
+    <history-entry file="Unittest_LaGou_test_lagou_003 - 2018.12.07 at 16h 44m 47s.xml">
+      <configuration name="Unittest LaGou.test_lagou_003" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.06 at 18h 21m 31s.xml">
-      <configuration name="Unittest LaGou.test_lagou_002" configurationId="tests" />
+    <history-entry file="Unittest_LaGou_test_lagou_003 - 2018.12.07 at 16h 54m 51s.xml">
+      <configuration name="Unittest LaGou.test_lagou_003" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittest_LaGou_test_lagou_002 - 2018.12.06 at 18h 22m 36s.xml">
-      <configuration name="Unittest LaGou.test_lagou_002" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_laGou - 2018.12.06 at 17h 49m 36s.xml">
-      <configuration name="Unittests in test_laGou" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_laGou - 2018.12.06 at 17h 49m 56s.xml">
-      <configuration name="Unittests in test_laGou" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_laGou - 2018.12.06 at 17h 54m 50s.xml">
-      <configuration name="Unittests in test_laGou" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_laGou - 2018.12.06 at 17h 55m 01s.xml">
-      <configuration name="Unittests in test_laGou" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_laGou - 2018.12.06 at 17h 56m 27s.xml">
-      <configuration name="Unittests in test_laGou" configurationId="tests" />
+    <history-entry file="Unittest_LaGou_test_lagou_003 - 2018.12.07 at 17h 10m 30s.xml">
+      <configuration name="Unittest LaGou.test_lagou_003" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17544784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17544784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3108253" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39978564" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -666,60 +716,42 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="c" />
+    <option name="LAST_COMMIT_MESSAGE" value="c" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Readme.md">
+    <entry file="file://$PROJECT_DIR$/base/method.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_laGou.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#16#31#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
+    <entry file="file://$PROJECT_DIR$/page/laGou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/excelData.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="362">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/data_config.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="153">
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <folding>
+            <element signature="e#15#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -733,7 +765,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
+        <state relative-caret-position="272">
           <caret line="18" column="82" selection-start-line="18" selection-start-column="82" selection-end-line="18" selection-end-column="82" />
           <folding>
             <element signature="e#16#27#0" expanded="true" />
@@ -741,17 +773,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/public.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="714">
+        <state relative-caret-position="663">
           <caret line="42" column="0" selection-start-line="42" selection-start-column="2" selection-end-line="43" selection-end-column="28" />
           <folding>
             <element signature="e#15#26#0" expanded="true" />
@@ -759,20 +783,130 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/laGou.py">
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/positonOd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pycharm/utrunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="56" column="0" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/data_config.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/positonId">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="9" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/public.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/requestData.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/laGou.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="34" column="0" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
           <folding>
             <element signature="e#15#48#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/utils/operationJson.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="8" selection-end-column="35" />
+          <folding>
+            <element signature="e#16#27#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/positionId">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/excelData.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/base/method.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="342">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
@@ -781,11 +915,37 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test_laGou.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="18" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="340">
+          <caret line="42" column="36" selection-start-line="42" selection-start-column="36" selection-end-line="42" selection-end-column="36" />
           <folding>
             <element signature="e#16#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/pydev/_pydev_imps/_pydev_execfile.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/utils/operationExcel.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="427">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="e#15#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bin/run.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
