@@ -43,11 +43,11 @@ class LaGou(unittest.TestCase):
             list1.append(positionId)
         writePositionId(json.dumps(list1))
 
-    def test_lagou_003(self):
-        '''访问搜到到的每个职位的详情页面'''
-        for i in range(1, 15):
-            r = self.obj.get(url=getUrl()[i])
-            self.assertTrue(self.p.isContent(2, r.text))
+    # def test_lagou_003(self):
+    #     '''访问搜到到的每个职位的详情页面'''
+    #     for i in range(1, 15):
+    #         r = self.obj.get(url=getUrl()[i])
+    #         self.assertTrue(self.p.isContent(2, r.text))
 
 
 if __name__ == '__main__':
